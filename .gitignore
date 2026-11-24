@@ -1,0 +1,32 @@
+﻿# SQLite Database files
+data/*.db
+data/*.db-wal
+data/*.db-shm
+data/*.db-journal
+
+# Logs
+logs/*.log
+
+# Exports
+exports/*.csv
+exports/*.json
+
+# Keep folders
+!data/.gitkeep
+!logs/.gitkeep
+!exports/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*.class
+.venv/
+env/
+.env
+
+# IDE & OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
